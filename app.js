@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-//fetch all products
+//all products
 const fetchData = async () => {
   try {
     const res = await fetch("https://bsale-nodejs-heroku.herokuapp.com/api/products");
@@ -19,7 +19,7 @@ const fetchData = async () => {
   }
 };
 
-//filter fetch
+//filter
 const search = () => {
   const input = document.getElementById("filterSearch").value; 
   
